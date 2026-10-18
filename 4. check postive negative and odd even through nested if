@@ -1,0 +1,16 @@
+#code to check postive negative and odd even through nested if
+x = int(input("Enter the number:"))
+if x%2==0:
+    if x>0:
+        print(f"{x} is even and positive")
+    elif x==0:
+        print("zero")
+    else:
+        print(f"{x} is even and negative")
+else:
+    if x>0:
+        print(f"{x} is odd and positive")
+    elif x==0:
+        print("zero")
+    else:
+        print(f"{x} is odd and negative")
