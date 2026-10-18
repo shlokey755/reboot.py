@@ -1,0 +1,9 @@
+#code to use break in a loop when 5 is reached
+for i in range(1,11):
+    print(i)
+    b = i
+    
+    if b == 5:
+        print("stopped loop at 5")
+        break
+    
