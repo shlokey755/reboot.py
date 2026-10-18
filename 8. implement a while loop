@@ -1,0 +1,8 @@
+#code to implement a while loop
+x = int(input("Enter a number:"))
+print("printing backwards")
+while x>0:
+    
+    print(x)
+    x=x-1
+    
