@@ -1,0 +1,6 @@
+#code to use pass statement in a loop for syntax placeholder
+for i in range(1,11):
+    if i==5:
+        pass
+    else:
+        print(i)
