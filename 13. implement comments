@@ -1,0 +1,14 @@
+#implementing comments in python
+
+#Single line comment using hash symbol
+
+'Single line string comment using single quotes'
+"Single line string comment using double quotes"
+
+'''Multiline
+string comment using
+triple single quotes'''
+
+"""Multiline
+string comment using
+triple double quotes"""
