@@ -1,0 +1,14 @@
+#mutable and immutable in python
+#this is a module that helps in determining whether an object is mutable or immutable in python
+
+#actually this is not the module but rather the explaination of it
+
+dstr = "hello"
+print(dstr)
+if type(dstr) == str :
+    print("it is a string hence immutable")
+
+blist = list(n for n in '1234')
+print(blist)
+if type(blist) == list:
+    print("it is a list hence mutable")
