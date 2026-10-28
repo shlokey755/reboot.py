@@ -1,0 +1,7 @@
+#implementing unary operators
+
+state = True
+print(not state)
+
+x = 5
+print(-x)
