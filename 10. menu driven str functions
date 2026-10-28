@@ -1,6 +1,7 @@
 #code to implement string functions
-
+nig = "MY NAME IS SHLOK"
 print("String functions")
+print(nig)
 print("1. Slice")
 print("2. count")
 print("3. find")
@@ -26,45 +27,57 @@ print("Exit")
 while True:
     ch = input("Enter choice:")
     if ch == '1':
-        pass
+        print(slice(2,10))
+        sli = slice(2,10)
+        print(nig[sli])
     elif ch == '2':
-        pass
+        coun = input("Enter substring to count:")
+        print(nig.count(coun))
     elif ch == '3':
-        pass
+        fin = input("find substring:")
+        print(nig.find(fin))
     elif ch == '4':
-        pass
+        cap = nig.capitalize()
+        print(cap)
     elif ch == '5':
-        pass
+        tit = nig.title()
+        print(tit)
     elif ch == '6':
-        pass
+        print(nig.lower())
     elif ch == '7':
-        pass
+        print(nig.upper())
     elif ch == '8':
-        pass
+        print(nig.swapcase())
     elif ch == '9':
-        pass
+        nam = input("Enter your name:")
+        old = "SHLOK"
+        print(nig.replace(old,nam))
     elif ch == '10':
-        pass
+        sentence = "+".join(nig)
+        print(sentence)
     elif ch == '11':
-        pass
+        print(nig.isspace())
     elif ch == '12':
-        pass
+        print(nig.isdigit())
     elif ch == '13':
-        pass
+        print(nig.split())
     elif ch == '14':
-        pass
+        print(f"checking if {nig} starts with an M: ", nig.startswith("M"))
     elif ch == '15':
-        pass
+        print(f"checking if {nig} ends with a F: ", nig.endswith("F"))
     elif ch == '16':
-        pass
+        print(nig.casefold())
     elif ch == '17':
-        pass
+        print(nig.center(36, "-"))
     elif ch == '18':
-        pass
+        print(nig.encode())
     elif ch == '19':
-        pass
+        print("{1} and {0} are inseparable.".format("Geto","Gojo"))        
     elif ch == '20':
-        pass
+        doofus = "BOMBOCLATT".center(48,"#")
+        print(doofus)
+        print(doofus.strip("#"))
+        
     elif ch == "Exit" or ch == "exit":
         break
     else:
