@@ -1,0 +1,5 @@
+#implementing membership operator
+
+L1 = list("ABCDEF")
+if "B" in L1:
+    print(f"yes B exists in {L1}")
