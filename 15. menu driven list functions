@@ -1,0 +1,38 @@
+#menu driven list functions
+
+l = list("ABCDEF")
+print(l)
+print("======List Functions======")
+for i in ["1. Append","2. Extend","3. Insert","4. Remove","5. Pop","6. Clear"]:
+    print(i)
+
+while True:
+    ch = input("Enter your choice:")
+    if ch == "1":
+        c = int(input("Enter a new element: "))
+        l = l.append(c)
+        print(l)
+        
+    elif ch == "2":
+        l2 = [1,2]
+        l = l.extend(l2)
+        print(l)
+    elif ch == "3":
+        pass
+    elif ch == "4":
+        pass
+    elif ch == "5":
+        pass
+    elif ch == "6":
+        pass
+    elif ch == "Exit" or ch == "exit":
+        break
+    else:
+        print("Invalid choice".center(40,"!"))
+    
+
+
+
+
+
+
