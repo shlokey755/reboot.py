@@ -10,21 +10,29 @@ while True:
     ch = input("Enter your choice:")
     if ch == "1":
         c = int(input("Enter a new element: "))
-        l = l.append(c)
-        print(l)
+        print(l.append(c))
+        
         
     elif ch == "2":
         l2 = [1,2]
-        l = l.extend(l2)
-        print(l)
+        print(l.extend(l2))
+        
     elif ch == "3":
-        pass
+        n = int(input("Enter a position to insert a new element: "))
+        m = int(input("Enter new element: "))
+        print(l.insert(n,m))
     elif ch == "4":
-        pass
+        m = input("Enter element to be removed: ")
+        print(f"removing {m} from {l} ")
+        l.remove(m)
+        print(f"Result: {l}")
     elif ch == "5":
-        pass
+        print(f"deleted {m} from {l}")
+        m = l.pop()
+        print(l)
     elif ch == "6":
-        pass
+        l.clear()
+        print("Cleared List ",l)
     elif ch == "Exit" or ch == "exit":
         break
     else:
