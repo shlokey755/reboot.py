@@ -1,0 +1,13 @@
+#code to implement linear search
+
+l = [1,2,3,4,5,6,7,8,9,10]
+print(f"Performing linear search operation on:\n {l} \n")
+n = int(input("Enter element to search: "))
+for i in range(0,9):
+    if l[i] == n:
+        b = i
+        print(f"{n} found at {b} position \n")
+
+if n not in l:
+    print(f"{n} is not present in list")
+
