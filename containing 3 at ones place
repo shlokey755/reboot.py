@@ -1,0 +1,10 @@
+#sum of numbers in list with 3 at units place
+
+b = []
+add=0
+L=[10,13,33,40,50,3,23]
+for i in L:
+    if i%10 == 3:
+        add = add+i
+        b.append(i)
+print(f"Sum of {b} is {add}")
