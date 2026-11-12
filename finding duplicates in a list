@@ -1,0 +1,11 @@
+#finding duplicates in two separate lists
+
+l = [10,20,30,40,55]
+l2 = [11,20,35,40,55]
+l3 = []
+for i in l:
+    for j in l2:
+        if i == j:
+            l3.append(i)
+t = list(set(l3))
+print(f"{l}\n {l2}\n duplicates: {t}")
