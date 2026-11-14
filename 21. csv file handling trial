@@ -1,0 +1,10 @@
+import csv
+f = open("emp.csv")
+r = csv.reader(f)
+h = []
+h = next(r)
+
+rows=[]
+for rows in r:
+    rows.append(row)
+
